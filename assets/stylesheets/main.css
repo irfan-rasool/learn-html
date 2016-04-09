@@ -48,7 +48,7 @@ table {
 }
 
 /*
-Main App Css
+/*Main App Css
 */
 *,
 *:before,
@@ -57,3 +57,10 @@ Main App Css
   -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
+
+ .container {
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 960px; 
+ }

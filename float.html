@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Float</title>
+	<style type="text/css">
+		 body {
+		 	width: 1200px;
+		 	margin: 0 auto;
+		 	background-color: #eee;
+		 }
+
+		 header,section,aside,footer {
+			margin: 20px 1.5% 24px 1.5%;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			}
+
+		code {
+			background: #2db34a;
+			border-radius: 6px;
+			color: #fff;
+			display: block;
+			font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+			padding: 24px 15px;
+			text-align: center;
+		}
+		.group:before,
+		.group:after {
+		  content: "";
+		  display: table;
+		}
+		.group:after {
+		  clear: both;
+		}
+		.group {
+		  clear: both;
+		  *zoom: 1;
+		}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+.logo {
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
+  float: left;
+}
+	</style>
+</head>
+<body>
+	<header class="section">
+		<h1 class="logo">
+			  <a href="index.html">Styles <br> Conference</a>
+		</h1>
+	</header>
+	<div class="group">
+		<section class="section">
+			<code>&lt;section&gt;</code>
+		</section>
+		<aside class="section">
+			<code>&lt;section&gt;</code>
+		</aside>
+	 </div>
+	<footer class="section">
+		<code>&lt;footer&gt;</code>
+	</footer>
+</body>
+</html>
